@@ -1,0 +1,52 @@
+# Ignore compiled output files
+*.o
+*.so
+*.dll
+*.exe
+
+# Ignore temporary files and swap files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+
+# Ignore Lua cache files
+*.luac
+
+# Ignore Neovim undo files
+*.un~
+
+# Ignore directories for plugins (if managed by a plugin manager)
+site/
+plugged/
+pack/*/start/*
+pack/*/opt/*
+
+# Ignore Neovim configuration specific backup files
+nvim_backup/
+nvim_views/
+nvim_undo/
+
+# Ignore Neovim LSP logs
+nvim-lsp.log
+
+# Ignore specific files for certain plugins (if applicable)
+# These should be adjusted according to your specific setup
+tags
+.session
+.cache
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# If you have a local settings file that should not be shared
+local_settings.vim
+
+
+# Plugin folder
+plugin/*

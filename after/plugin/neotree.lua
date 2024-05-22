@@ -1,2 +1,0 @@
--- vim.keymap.set('n', '<leader>tt',":Neotree toggle<CR>") 
--- vim.keymap.set('n', '<leader>t',":Neotree <CR>") 

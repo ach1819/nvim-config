@@ -37,6 +37,6 @@ vim.keymap.set("n", "<leader>ng" , ":Neogit<CR>")
 vim.api.nvim_set_keymap('n', '<F58>', ':resize -2<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<F57>', ':resize +2<CR>', { noremap = true, silent = true })
 
-vim.api.nvim_set_keymap('n', '<C-_>', ':vertical resize +2<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-=>', ':vertical resize +2<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<C-\\>', ':vertical resize -2<CR>', { noremap = true, silent = true })
 -- vim.api.nvim_set_keymap('n', '=', ':vertical resize -2<CR>', { noremap = true, silent = true })
